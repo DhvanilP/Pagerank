@@ -1,0 +1,20 @@
+
+Max error in 0 iteration is 0.001222
+Max error in 1 iteration is 0.000501
+Max error in 2 iteration is 0.000467
+Max error in 3 iteration is 0.000160
+Max error in 4 iteration is 0.000134
+Max error in 5 iteration is 0.000114
+Max error in 6 iteration is 0.000096
+Total iterations: 7
+
+Totaltime = 0.698842 seconds
+Processing time: 0.698839 
+End of program!
+
+Max error in 0 iteration is 0.000012
+Total iterations: 1
+
+Totaltime = 0.131451 seconds
+Processing time: 0.131447 
+End of program!
