@@ -2,3 +2,7 @@ Total iterations: 7
 
 Totaltime = 1.130364 seconds
 End of program!
+Total iterations: 7
+
+Totaltime = 1.489302 seconds
+End of program!

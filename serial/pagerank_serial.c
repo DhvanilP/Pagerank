@@ -156,18 +156,18 @@ void Random_P_E()
 int main(int argc, char** argv)
 {
    // Check input arguments
-   if (argc < 5)
+   if (argc < 2)
    {
-      printf("Error in arguments! Three arguments required: graph filename, N, threshold and d\n");
+      printf("Error in arguments! Arguments required: graph filename\n");
       return 0;
    } 
 
    // get arguments 
    char filename[256];
    strcpy(filename, argv[1]);
-   N = atoi(argv[2]);
-   threshold = atof(argv[3]);
-   d = atof(argv[4]);
+   N = 916428;
+   threshold = 0.0001;
+   d = 0.85;
     
    int i, j, k;
    double totaltime;
