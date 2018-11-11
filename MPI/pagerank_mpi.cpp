@@ -195,7 +195,7 @@ int main(int argc, char** argv)
 			Random_P_E(Nodes);
 	
 
-			int chunk_size = N/size;   //10 by 4 : 1111222233
+			int chunk_size = N/size;   //77/10 = 7.7
 			int r = N % size;
 	    		int start_index = rank*chunk_size;
 			if(rank<r)

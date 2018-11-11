@@ -214,7 +214,7 @@ int main(int argc, char** argv)
       }
 
       // Find P for each webpage
-      #pragma omp parallel for private(i,j,index,node_constant) shared(Nodes)  schedule(auto) 
+      #pragma omp parallel for private(i,j,index,node_constant) shared(Nodes)  schedule(auto) reduction(+:sum)
       for (i = 0; i < N; i++)
       {
          if (Nodes[i].con_size != 0)
@@ -234,8 +234,7 @@ int main(int argc, char** argv)
         else
         {
          // Contribute to all
-            #pragma omp atomic
-            sum = sum + (double)Nodes[i].p_t0 / N;
+            sum += (double)Nodes[i].p_t0 / N;
         }
       }
         
