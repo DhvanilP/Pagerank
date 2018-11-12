@@ -71,3 +71,10 @@ web-surfing, otherwise go to random page with probability of 0.15.
 ```
 PR[i] = PR2[i] * damping_factor + (1 - damping_factor) / page_cnt
 ```
+
+
+## Team Members
+* [Nishant Kumar](https://github.com/NishantKr97),16IT123
+* [Dhvanil Parikh](https://github.com/DhvanilP), 16IT217
+* [Suyash Ghuge](https://github.com/suyash0103), 16IT114
+* [Shreyas Shankar](https://github.com/shrey920), 16IT138
