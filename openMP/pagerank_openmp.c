@@ -214,7 +214,7 @@ int main(int argc, char** argv)
       }
 
       // Find P for each webpage
-      #pragma omp parallel for private(i,j,index,node_constant) shared(Nodes)  schedule(guided) reduction(+:sum)
+      #pragma omp parallel for num_threads(16) private(i,j,index,node_constant) shared(Nodes)  schedule(guided) reduction(+:sum)
       for (i = 0; i < N; i++)
       {
          if (Nodes[i].con_size != 0)
