@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://github.com/lionell/pagerank/blob/master/docs/img/googlepagerank.jpg" />
+  <img src="https://raw.githubusercontent.com/lionell/pagerank/master/docs/img/googlepagerank.jpg" />
 </div>
 
 Implementation of [PageRank](https://en.wikipedia.org/wiki/PageRank) algorithm, using
